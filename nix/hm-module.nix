@@ -43,25 +43,11 @@ in {
             "QT_QPA_PLATFORMTHEME=gtk3"
           ];
         };
-        preExec = mkOption {
-          type = types.str;
-          description = "Commands to run before starting the Caelestia shell service.";
-          default = "";
-          example = "caelestia scheme set -n gruvbox -f dark -v medium";
-        };
       };
       settings = mkOption {
         type = types.attrsOf types.anything;
         default = {};
         description = "Caelestia shell settings";
-        example = {
-          # Set gruvbox dark medium as default colorscheme
-          scheme = {
-            name = "gruvbox";
-            flavour = "dark";
-            variant = "medium";
-          };
-        };
       };
       extraConfig = mkOption {
         type = types.str;
@@ -106,7 +92,6 @@ in {
 
         Service = {
           Type = "exec";
-          ExecStartPre = lib.mkIf (cfg.systemd.preExec != "") "${pkgs.bash}/bin/bash -c '${cfg.systemd.preExec}'";
           ExecStart = "${shell}/bin/caelestia-shell";
           Restart = "on-failure";
           RestartSec = "5s";
