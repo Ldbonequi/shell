@@ -41,7 +41,7 @@
       };
       with-cli = caelestia-shell.override {withCli = true;};
       debug = caelestia-shell.override {debug = true;};
-      default = caelestia-shell;
+      default = with-cli;
     });
 
     devShells = forAllSystems (pkgs: {

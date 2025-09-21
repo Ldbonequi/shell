@@ -161,75 +161,76 @@ Singleton {
     }
 
     component M3Palette: QtObject {
-        property color m3primary_paletteKeyColor: "#a26387"
-        property color m3secondary_paletteKeyColor: "#8b6f7d"
-        property color m3tertiary_paletteKeyColor: "#9c6c53"
-        property color m3neutral_paletteKeyColor: "#7f7478"
-        property color m3neutral_variant_paletteKeyColor: "#827379"
-        property color m3background: "#181115"
-        property color m3onBackground: "#eddfe4"
-        property color m3surface: "#181115"
-        property color m3surfaceDim: "#181115"
-        property color m3surfaceBright: "#40373b"
-        property color m3surfaceContainerLowest: "#130c10"
-        property color m3surfaceContainerLow: "#211a1d"
-        property color m3surfaceContainer: "#251e21"
-        property color m3surfaceContainerHigh: "#30282b"
-        property color m3surfaceContainerHighest: "#3b3236"
-        property color m3onSurface: "#eddfe4"
-        property color m3surfaceVariant: "#504349"
-        property color m3onSurfaceVariant: "#d3c2c9"
-        property color m3inverseSurface: "#eddfe4"
-        property color m3inverseOnSurface: "#362e32"
-        property color m3outline: "#9c8d93"
-        property color m3outlineVariant: "#504349"
+        // Gruvbox Dark Medium colors
+        property color m3primary_paletteKeyColor: "#d79921"  // gruvbox yellow
+        property color m3secondary_paletteKeyColor: "#689d6a"  // gruvbox aqua
+        property color m3tertiary_paletteKeyColor: "#d65d0e"  // gruvbox orange
+        property color m3neutral_paletteKeyColor: "#928374"  // gruvbox gray
+        property color m3neutral_variant_paletteKeyColor: "#a89984"  // gruvbox light gray
+        property color m3background: "#282828"  // gruvbox dark0
+        property color m3onBackground: "#ebdbb2"  // gruvbox light1
+        property color m3surface: "#282828"  // gruvbox dark0
+        property color m3surfaceDim: "#1d2021"  // gruvbox dark0_hard
+        property color m3surfaceBright: "#3c3836"  // gruvbox dark1
+        property color m3surfaceContainerLowest: "#1d2021"  // gruvbox dark0_hard
+        property color m3surfaceContainerLow: "#32302f"  // gruvbox dark0_soft
+        property color m3surfaceContainer: "#3c3836"  // gruvbox dark1
+        property color m3surfaceContainerHigh: "#504945"  // gruvbox dark2
+        property color m3surfaceContainerHighest: "#665c54"  // gruvbox dark3
+        property color m3onSurface: "#ebdbb2"  // gruvbox light1
+        property color m3surfaceVariant: "#504945"  // gruvbox dark2
+        property color m3onSurfaceVariant: "#bdae93"  // gruvbox light2
+        property color m3inverseSurface: "#ebdbb2"  // gruvbox light1
+        property color m3inverseOnSurface: "#3c3836"  // gruvbox dark1
+        property color m3outline: "#928374"  // gruvbox gray
+        property color m3outlineVariant: "#504945"  // gruvbox dark2
         property color m3shadow: "#000000"
         property color m3scrim: "#000000"
-        property color m3surfaceTint: "#fbb1d8"
-        property color m3primary: "#fbb1d8"
-        property color m3onPrimary: "#511d3e"
-        property color m3primaryContainer: "#6b3455"
-        property color m3onPrimaryContainer: "#ffd8ea"
-        property color m3inversePrimary: "#864b6e"
-        property color m3secondary: "#dfbecd"
-        property color m3onSecondary: "#402a36"
-        property color m3secondaryContainer: "#5a424f"
-        property color m3onSecondaryContainer: "#fcd9e9"
-        property color m3tertiary: "#f3ba9c"
-        property color m3onTertiary: "#4a2713"
-        property color m3tertiaryContainer: "#b8856a"
-        property color m3onTertiaryContainer: "#000000"
-        property color m3error: "#ffb4ab"
-        property color m3onError: "#690005"
-        property color m3errorContainer: "#93000a"
-        property color m3onErrorContainer: "#ffdad6"
-        property color m3primaryFixed: "#ffd8ea"
-        property color m3primaryFixedDim: "#fbb1d8"
-        property color m3onPrimaryFixed: "#370728"
-        property color m3onPrimaryFixedVariant: "#6b3455"
-        property color m3secondaryFixed: "#fcd9e9"
-        property color m3secondaryFixedDim: "#dfbecd"
-        property color m3onSecondaryFixed: "#291520"
-        property color m3onSecondaryFixedVariant: "#58404c"
-        property color m3tertiaryFixed: "#ffdbca"
-        property color m3tertiaryFixedDim: "#f3ba9c"
-        property color m3onTertiaryFixed: "#311302"
-        property color m3onTertiaryFixedVariant: "#653d27"
-        property color term0: "#353434"
-        property color term1: "#fe45a7"
-        property color term2: "#ffbac0"
-        property color term3: "#ffdee3"
-        property color term4: "#b3a2d5"
-        property color term5: "#e491bd"
-        property color term6: "#ffba93"
-        property color term7: "#edd2d5"
-        property color term8: "#b29ea1"
-        property color term9: "#ff7db7"
-        property color term10: "#ffd2d5"
-        property color term11: "#fff1f2"
-        property color term12: "#babfdd"
-        property color term13: "#f3a9cd"
-        property color term14: "#ffd1c0"
-        property color term15: "#ffffff"
+        property color m3surfaceTint: "#d79921"  // gruvbox yellow
+        property color m3primary: "#d79921"  // gruvbox yellow
+        property color m3onPrimary: "#1d2021"  // gruvbox dark0_hard
+        property color m3primaryContainer: "#b57614"  // gruvbox yellow dim
+        property color m3onPrimaryContainer: "#fabd2f"  // gruvbox bright_yellow
+        property color m3inversePrimary: "#b57614"  // gruvbox yellow dim
+        property color m3secondary: "#8ec07c"  // gruvbox bright_green
+        property color m3onSecondary: "#282828"  // gruvbox dark0
+        property color m3secondaryContainer: "#689d6a"  // gruvbox aqua
+        property color m3onSecondaryContainer: "#b8bb26"  // gruvbox bright_green
+        property color m3tertiary: "#fe8019"  // gruvbox bright_orange
+        property color m3onTertiary: "#1d2021"  // gruvbox dark0_hard
+        property color m3tertiaryContainer: "#d65d0e"  // gruvbox orange
+        property color m3onTertiaryContainer: "#1d2021"  // gruvbox dark0_hard
+        property color m3error: "#fb4934"  // gruvbox bright_red
+        property color m3onError: "#1d2021"  // gruvbox dark0_hard
+        property color m3errorContainer: "#cc241d"  // gruvbox red
+        property color m3onErrorContainer: "#fb4934"  // gruvbox bright_red
+        property color m3primaryFixed: "#fabd2f"  // gruvbox bright_yellow
+        property color m3primaryFixedDim: "#d79921"  // gruvbox yellow
+        property color m3onPrimaryFixed: "#1d2021"  // gruvbox dark0_hard
+        property color m3onPrimaryFixedVariant: "#b57614"  // gruvbox yellow dim
+        property color m3secondaryFixed: "#b8bb26"  // gruvbox bright_green
+        property color m3secondaryFixedDim: "#98971a"  // gruvbox green
+        property color m3onSecondaryFixed: "#1d2021"  // gruvbox dark0_hard
+        property color m3onSecondaryFixedVariant: "#689d6a"  // gruvbox aqua
+        property color m3tertiaryFixed: "#fe8019"  // gruvbox bright_orange
+        property color m3tertiaryFixedDim: "#d65d0e"  // gruvbox orange
+        property color m3onTertiaryFixed: "#1d2021"  // gruvbox dark0_hard
+        property color m3onTertiaryFixedVariant: "#af3a03"  // gruvbox orange dim
+        property color term0: "#282828"   // gruvbox dark0
+        property color term1: "#cc241d"   // gruvbox red
+        property color term2: "#98971a"   // gruvbox green
+        property color term3: "#d79921"   // gruvbox yellow
+        property color term4: "#458588"   // gruvbox blue
+        property color term5: "#b16286"   // gruvbox purple
+        property color term6: "#689d6a"   // gruvbox aqua
+        property color term7: "#a89984"   // gruvbox light gray
+        property color term8: "#928374"   // gruvbox gray
+        property color term9: "#fb4934"   // gruvbox bright_red
+        property color term10: "#b8bb26"  // gruvbox bright_green
+        property color term11: "#fabd2f"  // gruvbox bright_yellow
+        property color term12: "#83a598"  // gruvbox bright_blue
+        property color term13: "#d3869b"  // gruvbox bright_purple
+        property color term14: "#8ec07c"  // gruvbox bright_aqua
+        property color term15: "#ebdbb2"  // gruvbox light1
     }
 }
